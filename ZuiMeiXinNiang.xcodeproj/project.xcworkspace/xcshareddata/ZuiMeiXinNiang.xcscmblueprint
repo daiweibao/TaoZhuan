@@ -1,0 +1,45 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1e462602-a1a6-814b-8e3a-389d6dc60e42++7373",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d3b33442-203a-4b98-a023-85834f8d8bd5++4837" : {
+
+    },
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++7373" : {
+
+    },
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d3b33442-203a-4b98-a023-85834f8d8bd5++4837" : 0,
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++7373" : 0,
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DF1A3132-36C5-44F0-85A0-8D60E5C24248",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d3b33442-203a-4b98-a023-85834f8d8bd5++4837" : "ZuiMeiXinNiang\/ZuiMeiXinNiang\/%E4%B8%89%E6%96%B9%E5%BA%93\/MD5\/",
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++7373" : "ZuiMeiXinNiang\/",
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223" : "xiumei\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZuiMeiXinNiang",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZuiMeiXinNiang.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.23\/svn\/bride-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.23\/svn\/bride-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1e462602-a1a6-814b-8e3a-389d6dc60e42++7373"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.88.8\/qfproj",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d3b33442-203a-4b98-a023-85834f8d8bd5++4837"
+    }
+  ]
+}

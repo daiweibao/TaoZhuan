@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D89EE4A8-87AA-479E-AE30-D76050D5F68B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223" : "xiumei3_2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZuiMeiXinNiang",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZuiMeiXinNiang.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.23\/svn\/bride-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1e462602-a1a6-814b-8e3a-389d6dc60e42++5223"
+    }
+  ]
+}

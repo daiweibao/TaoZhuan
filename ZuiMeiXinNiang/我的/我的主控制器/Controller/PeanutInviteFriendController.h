@@ -1,0 +1,13 @@
+//
+//  PeanutInviteFriendController.h
+//  ZuiMeiXinNiang
+//
+//  Created by 爱淘包 on 2017/12/19.
+//  Copyright © 2017年 北京嗅美科技有限公司. All rights reserved.
+//
+//分享嗅美花生
+#import "XMRootViewController.h"
+
+@interface PeanutInviteFriendController : XMRootViewController
+
+@end

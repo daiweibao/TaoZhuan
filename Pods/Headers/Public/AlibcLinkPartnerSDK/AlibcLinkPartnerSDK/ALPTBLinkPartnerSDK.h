@@ -1,0 +1,1 @@
+../../../../AlibcLinkPartnerSDK/AlibcLinkPartnerSDK.framework/Headers/ALPTBLinkPartnerSDK.h

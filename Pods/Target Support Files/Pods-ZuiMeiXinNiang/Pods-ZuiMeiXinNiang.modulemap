@@ -1,0 +1,6 @@
+framework module Pods_ZuiMeiXinNiang {
+  umbrella header "Pods-ZuiMeiXinNiang-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,152 @@
+//
+//  PrefixHeader.pch
+//  ZuiMeiXinNiang
+//
+//  Created by 爱恨的潮汐 on 15/12/11.
+//  Copyright (c) 2015年 北京嗅美科技有限公司. All rights reserved.
+//
+
+#ifndef ZuiMeiXinNiang_PrefixHeader_pch
+#define ZuiMeiXinNiang_PrefixHeader_pch
+//我的帮助类头文件集合（所有帮助类头文件都在这里，不包含其他三方库）
+#import "DWBHelpHeader.h"
+//三方库appKey的头文件
+#import "AppKeyHelpHeader.h"
+//接口头文件
+#import "Header.h"
+#import "XMRootViewController.h"
+
+//广告轮播图点击跳转封装
+#import "ADScrollerActionPush.h"
+
+//京东订单号
+#import "OpenJDGoodesDetals.h"
+
+//标签颜色
+#define LABEL_COLOR [UIColor colorWithRed:0.894 green:0.208 blue:0.557 alpha:1.000]
+
+//用户观看直播中，用来判断直播中游客转用户登录的操作
+#define userjoinChatroom [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"userjoinChatroom"]]
+
+//系统视频上传存储沙盒路径（再用）临时缓存：NSCachesDirectory
+#define KVideoUrlPath   \
+[[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"XiumeiVideoURLDWB"]
+
+
+
+
+
+//注销操作后刷新数据关注界面
+#define cancellationHomeRefresh [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"cancellationHome"]]
+//注销操作后刷新数据美聊
+#define cancellationMeiliaoRefresh [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"cancellationMeiliao"]]
+
+
+//用户的兴趣爱好
+#define UserLoveCircleName [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"LoveCircleName"]]
+
+//友盟推送，用户UMdeviceToken
+#define UMdeviceToken [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"UMdeviceToken"]]
+
+//生日选择器
+#import "ASBirthSelectSheet.h"
+//单列选择器
+#import "zySheetPickerView.h"
+
+//友盟统计（2017.3.24）
+#import "UMMobClick/MobClick.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AFNetworking.h"
+
+//排序
+#import "NSMutableArray+ArraySorting.h"
+//视频播放
+#import <MediaPlayer/MediaPlayer.h>
+
+//地址选择器
+#import "AddressView.h"
+
+//长按保存Webview图片（暂时不能删，有地方还在用）
+#import "UnpreventableUILongPressGestureRecognizer.h"
+#import "UIWebView+WebViewAdditions.h"
+
+//查看原图
+#import "ImageReviewViewController.h"
+
+//push用
+#import "AppDelegate.h"
+
+//MJModel
+#import "MJExtension.h"
+//自动布局
+#import "Masonry.h"
+//数据缓存
+#import "XHNetworkCache.h"
+
+//点击头像
+#import "PhoneAction.h"
+
+//淘宝客商品打开详情
+#import "OpenTaobaoGoodes.h"
+//打开京东商品详情
+#import "OpenJDGoodesDetals.h"
+
+#import <AVFoundation/AVFoundation.h>
+//登陆弹窗
+#import "AlertCXLoginView.h"
+
+#import "AppDelegateView.h"
+
+/*自定义nslog  可以自由开关
+ 开启:”Target>Build Settings>Preprocessor Macros>添加”DEBUG=1”。
+ 
+ 关闭:”Target>Build Settings>Preprocessor Macros>删除”DEBUG=1”。
+ */
+//#ifdef DEBUG
+//#define NSLog(...) NSLog(__VA_ARGS__)
+//#define debugMethod() NSLog(@"%s", __func__)
+//#else
+//#define NSLog(...)
+//#define debugMethod()
+//#endif
+
+
+#endif
+
+
+
+
+
+
+
+
+/*
+ 《如何做一个让程序猿讨厌的产品经理》
+
+ 今天，教你一些简单易学、通俗易懂，能让「产品汪」在「程序猿」，包括工程师/设计师眼中，迅速变得讨厌、讨厌、讨厌的事情：
+ 
+ 开始实施之前
+ 【不说清需求价值】，技术问“为什么要做”的时候，支支吾吾，或者说“老板要的、运营要的”，假装是个传话筒，因为接二手需求，并不知道、也没有去追溯这个需求的初衷。相反，切忌不要有理有据的顶老板，那会让大家喜欢上你；
+ 【不去想功能细节】，技术问细节（当然，是涉及业务的细节，不是技术实现细节）的时候，自己装作还没想过，现场想——这样做吧，那样做也可以，或者你定吧……要巧妙的被发现，这时候你已经能听到技术的心里话啦——傻逼；
+ 【帮技术评估工作量】，特别是技术出身的产品经理，最容易做到，潜台词就是“希望加活”，我评估过了，这些都能做掉的，不要给我偷懒，哈哈哈哈哈哈；切忌，不要把他们当人，而要当「资源」；
+ 【逼着技术团队承诺】，哼哼，公事公办，如果技术承诺了，但却做不到，这样自己就没责任了，可能对方会说——很多事情，在开始的时候是谁也不知道的，应该大家在一条船上同舟共济，这就是“接力跑”和“踢足球”在交棒/传球之后的区别。你可以回：我不管我不管我不管；
+ 
+ 实施过程中
+ 【做了一半改需求】，scrum里的表现就是sprint内的「非受迫需求变更」，太狠了，技术同学肯定很难忍受，特别是产品经理自己没想清楚，而导致的劳动浪费，俗话说“没有变更就没有伤害”，碰到性子烈的就直接要干架了，汪们，这时候要注意保护自己；
+ 【开发过程中消失】，你可以多安排点出差、多开开会，注意尽量手机关机，不要响应技术的问题，要不然，责任就回来了。让他们为了进度照着自己的想法做下去，关键是，验收的时候跳出来说“这不是我要的”，再次，注意人身安全；
+ 【过度关注实现细节】，帮技术决定技术方案，也是技术出身的产品经理应该很容易做到这点，变着法儿的越俎代庖，把他们全部从积极主动小伙子，打击成一个纯打工形态的「资源」，哎，又用这个厉害的词了；
+ 
+ 产品发布之后
+ 【发布后没有反馈】，技术人员也需要从市场、用户那里获得反馈，从而知道自己做的事情产生了价值，提升成就感，我们要做的就是，做完发布，马上石沉大海，不告诉大家任何结果，甚至庆功会都忘了他们，紧接着赶紧继续安排他们干活；
+ 【无节奏感】，让技术人员忙一阵闲一阵，发布之后再忙着研究接下来做什么，一会儿让技术人员有着干死干活的高强度，我就是要结果，deadline，死命令，之后突然不知道做什么——你们也一起来讨论下业务吧，或者培训培训做做团建什么的；
+ 
+ 全过程都可以做的
+ 【优柔寡断无决断】，能表现出这个品质就最棒了，就是在已经讨论完毕后，大家都等着你拍板的时候“你说吧，往哪儿走我们就跟着办”，这时候你说“啊，那个，各种方案各有利弊啊，我也不知道怎么办啊，你们有什么好想法……”；
+ 【报喜不报忧】，藏着掖着一些信息，比如“老板在考虑干掉这个项目”这类信息，表面打死不承认，但让大家通过其他途径知道，很容易就把互信完全打破，这时候他们可讨厌你了；
+ 【不要把他们当人】，这点，最狠了，不关注成长，只关注结果，不能再说了，我们只是要做一个程序猿讨厌的产品经理，不是要做一个被砍死的产品经理……
+ 
+ 还有啥招，欢迎补充。
+ 
+ */

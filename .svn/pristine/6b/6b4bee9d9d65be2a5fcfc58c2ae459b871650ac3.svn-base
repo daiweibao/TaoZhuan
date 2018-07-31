@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  ZuiMeiXinNiang
+
+  Created by zmxn on 16/7/15.
+  Copyright © 2016年 zmxn. All rights reserved.
+*/
+// Localizable App Name是App在英语环境环境下显示的名称
+//CFBundleDisplayName = "淘赚";
